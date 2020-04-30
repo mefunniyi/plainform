@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Pizza-On-Demand</title>
+</head>
+<body>
+    <title>Blackstone bistro</title>
+    <h1>Blackstone Bistro | Pizza-On-Demand</h1>
+    <p>Our 12" wood-fire pizzas are available for delivery. build your custom pizza and we'll deliver it in an hour</p>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Your Information</legend>
+            <ul>
+                <li><label>Name:<input type="text" name="fullname"></label></li>
+                <li><label>Address:<input type="text" name="address"></label></li>
+                <li><label>Telephone no:<input type="text" name="Telephone"></label></li>
+                <li><label>Email:<input type="text" name="email"></label></li>
+                <p>Delivery instructions:</p>
+                <textarea name="contest_entry" placeholder="How can we serve you best?" rows="4" cols="100"></textarea>
+            </ul>
+        </fieldset>
+            <h2>Design your dream pizza:</h2>
+            <fieldset>
+                <legend>Pizza specs</legend>
+                <fieldset>
+                    <legend>Crust(choose one)</legend>
+                        <ol>
+                            <input type="radio" name="pizza" value="Classic white">Classic white<br>
+                            <input type="radio" name="pizza" value="Multigrain">Multigrain<br>
+                            <input type="radio" name="pizza" value="Chesse-stuffed crust">Chesse-stuffed crust<br>
+                            <input type="radio" name="pizza" value="Gluten-free">Gluten-free<br>
+                        </ol>
+                </fieldset>
+                <fieldset>
+                    <legend>Toppings (Choose as many as you want)</legend>
+                    <input type="checkbox" name="genre" value="Red Sauce" checked> Red Sauce<br>
+                    <input type="checkbox" name="genre" value="white Sauce"> White Sauce<br>
+                    <input type="checkbox" name="genre" value="Mozzarella">Mozzarella<br>
+                    <input type="checkbox" name="genre" value="Pepperoni">Pepperoni<br>
+                    <input type="checkbox" name="genre" value="Mushrooms">Mushrooms<br>
+                    <input type="checkbox" name="genre" value="Pepper">Pepper<br>
+                    <input type="checkbox" name="genre" value="Anchovies">Anchovies<br>
+                </fieldset>
+                <fieldset>
+                    <legend>Number</legend>
+                    <label>How many Pizzas<input type="number" name="Pizza-On-Demand" min="1" max="6"></label>
+                </fieldset>
+            </fieldset>
+            <button class="myButton">Bring my Pizza!</button>
+    </form>
+
+</body>
+</html>
